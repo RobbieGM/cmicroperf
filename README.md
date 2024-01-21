@@ -10,7 +10,7 @@ Cmicroperf is a simple macro-based profiler for C code that measures wall-clock 
 int main(int arg, char **argv) {
     // Start the profiler thread
     pthread_t profiler_thread;
-	pthread_create(&profiler_thread, NULL, start_profiler_output_writer, NULL);
+    pthread_create(&profiler_thread, NULL, start_profiler_output_writer, NULL);
 
     // ...
 
